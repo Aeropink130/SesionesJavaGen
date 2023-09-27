@@ -1,6 +1,5 @@
 package dataTypes;
 
-import java.sql.Struct;
 
 public class DatosPrimitivos {
 	public static void main(String[] args) {
