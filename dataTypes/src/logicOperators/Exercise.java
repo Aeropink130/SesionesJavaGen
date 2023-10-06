@@ -46,7 +46,7 @@ public class Exercise {
 		tdd = true;
 		
 		if (tdd) {
-			System.out.println("El metodo de pago es TDD");
+			System.out.println("El metodo de pago es TDC");
 			float mensualidad = total/12;
 			System.out.println("Mariana pagará 12 mensualidades de $" + mensualidad);
 		}else {
