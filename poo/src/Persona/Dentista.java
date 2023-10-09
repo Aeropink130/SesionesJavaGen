@@ -51,6 +51,21 @@ public class Dentista extends Persona{
 		System.out.println("Experiencia: " + experiencia);
 		System.out.println("Salario: " + salario);
 	}
+
+	@Override
+	public String toString() {
+		return "Dentista [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", telefono=" + telefono
+				+ ", email=" + email + ", especialidad=" + especialidad + ", cedula=" + cedula
+				+ ", consultorioAsignado=" + consultorioAsignado + ", experiencia=" + experiencia + ", turno=" + turno
+				+ ", salario=" + salario + "]";
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 
 }//Cierre dentista

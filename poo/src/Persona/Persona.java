@@ -31,7 +31,6 @@ public class Persona {
 		System.out.println("Hola, te mando saluditos");
 	}
 	
-	//Método principal
 	
 	
 }//cierre de clase POO
