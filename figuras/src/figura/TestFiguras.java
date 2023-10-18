@@ -18,5 +18,12 @@ public class TestFiguras {
 		//4. Invocacion del metodo
 		System.out.println("El area del rectangulo es: " + rectangulo.calcularArea());
 		System.out.println("El area del circulo es: " + circulo.calcularArea());
+		
+		System.out.println("**************************************");
+		
+		Esfera esfera = new Esfera(7.2);
+		System.out.println("Area de la esfera es: " + esfera.calcularArea());
+		System.out.println("El perimetro de la esfera es: " + esfera.calcularPerimetro());
+		System.out.println("El volumen de la esfera es: " + esfera.calcularVolumen());
 	}
 }
